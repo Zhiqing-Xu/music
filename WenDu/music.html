@@ -95,7 +95,17 @@
 
         <!-- Bubbly-bg library -->
         <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
-        <script src="../music.js"></script>
+        <script>
+            bubbly({
+                colorStart: '#54ffff',
+                colorStop: '#5457ff',
+                blur: 1,
+                compose: 'source-over',
+                bubbleFunc:() => `hsla(${Math.random() * 9999}, 100%, 50%, .4)`
+            });
+        </script>
 
+
+        
     </body>
 </html>

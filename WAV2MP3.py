@@ -26,7 +26,7 @@ directory_path = ["./Other/FuBao/assets_music/music" ,
                   "./FanTing/assets_music/music"     ,
                   "./TaoZiSu/assets_music/music"     ,
                   ""                                 ,
-                  ][4]
+                  ][1]
 
 
 

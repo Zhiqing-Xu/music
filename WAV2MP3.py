@@ -20,13 +20,14 @@ def convert_wav_to_mp3(directory):
 
 # Provide your directory path here
             
-directory_path = ["./Other/FuBao/assets_music/music" ,
-                  "./WenDu/assets_music/music"       ,
-                  "./BiXin/assets_music/music"       ,
-                  "./FanTing/assets_music/music"     ,
-                  "./TaoZiSu/assets_music/music"     ,
-                  ""                                 ,
-                  ][1]
+directory_path = ["./FuBao/assets_music/music"        ,
+                  "./WenDu/assets_music/music"        ,
+                  "./BiXin/assets_music/music"        ,
+                  "./FanTing/assets_music/music"      ,
+                  "./TaoZiSu/assets_music/music"      ,
+                  "./JiaoTang/assets_music/music"     ,
+                  ""
+                  ][5]
 
 
 

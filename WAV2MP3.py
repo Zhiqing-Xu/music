@@ -18,6 +18,8 @@ def convert_wav_to_mp3(directory):
             wav_audio.export(mp3_path, format="mp3")
             print(f"Converted '{wav_path}' to '{mp3_path}'")
 
+
+
 # Provide your directory path here
             
 directory_path = ["./FuBao/assets_music/music"        ,
@@ -30,6 +32,13 @@ directory_path = ["./FuBao/assets_music/music"        ,
                   ][5]
 
 
-
-
 convert_wav_to_mp3(directory_path)
+
+
+
+
+
+
+
+
+
